@@ -20,7 +20,10 @@ pipeline {
                 branch 'main'
             }
             steps {
-                sh './deploy.sh'
+		sh '''
+            		chmod +x deploy.sh
+            		bash deploy.sh
+        	   '''
             }
         }
     }
