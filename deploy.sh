@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create .env file for MONGO DB connection"
-echo "MONGO_URI=mongodb+srv://ershashi09_db_user:M3dO9l7JkOttJeu6@travel-memory-cluster.qm5fqgo.mongodb.net" > .env
+echo "MONGO_URI=mongodb+srv://ershashi09_db_user:M3dO9l7JkOttJeu6@travel-memory-cluster.qm5fqgo.mongodb.net/students" > .env
 
 echo "Starting deployment..."
 # Stop any already running instance
