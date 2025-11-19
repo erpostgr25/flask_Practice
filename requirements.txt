@@ -1,3 +1,5 @@
+flask-pymongo
+pymongo
 Flask 
 Flask-PyMongo 
 python-dotenv 
