@@ -16,9 +16,6 @@ pipeline {
         }
 
         stage('Deploy') {
-            when {
-                branch 'main'
-            }
             steps {
 		sh '''
 			echo "MONGO_URI=mongodb+srv://ershashi09_db_user:M3dO9l7JkOttJeu6@travel-memory-cluster.qm5fqgo.mongodb.net/students" > .env
