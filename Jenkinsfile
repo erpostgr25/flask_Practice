@@ -17,18 +17,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-		sh '''
-			echo "MONGO_URI=mongodb+srv://ershashi09_db_user:M3dO9l7JkOttJeu6@travel-memory-cluster.qm5fqgo.mongodb.net/students" > .env
-
-			echo "Starting deployment..."
-			# Stop any already running instance
-			pkill -f "python3 app.py" 2>/dev/null
-
-			# Start the application in background
-			nohup python3 ${PWD}/app.py > app.log 2>&1 &
-
-			echo "Application deployed to staging environment!"
-        	   '''
+		sh './deploy.sh'
             }
         }
     }

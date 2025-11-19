@@ -5,8 +5,7 @@ echo "MONGO_URI=mongodb+srv://ershashi09_db_user:M3dO9l7JkOttJeu6@travel-memory-
 
 echo "Starting deployment..."
 # Stop any already running instance
-#pkill -f "python3 app.py" 2>/dev/null || true
-ps -ef | grep app.py | awk '{print $2}' | xargs kill || true
+pkill -f "python3 app.py" 2>/dev/null || true
 # Start the application in background
 nohup python3 ${PWD}/app.py > app.log 2>&1 &
 
