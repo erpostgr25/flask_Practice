@@ -1,3 +1,28 @@
+# Assignment1: Jenkins CI CD pipeline for flask application
+
+* Jenkins SCM configuration
+  <img width="1472" height="895" alt="SCM configuration" src="https://github.com/user-attachments/assets/1e61ce8f-e0c3-4227-aec9-b8c8398da993" />
+* Github Webhook Config
+  <img width="992" height="963" alt="webhook" src="https://github.com/user-attachments/assets/e8442dbd-32e8-4a2a-b4ca-0c8af5a520bc" />
+* Pytest installation
+  <img width="1006" height="553" alt="pytest installed" src="https://github.com/user-attachments/assets/291df5dd-68df-4e0e-b093-b5d072f3144b" />  
+* Jenkins Console Output
+  <img width="1443" height="976" alt="console-output" src="https://github.com/user-attachments/assets/8a63a8cd-477f-4499-9d0b-d58923637d43" />  
+* Email Notification  
+  <img width="466" height="182" alt="email" src="https://github.com/user-attachments/assets/b2274a7f-2fa9-4263-8243-4be8367dc589" />  
+* Application status
+  <img width="1322" height="120" alt="app started" src="https://github.com/user-attachments/assets/456b4684-9329-46b1-88ec-77a1ecc34b16" />  
+# Assignment2: GitHub Actions CI/CD Pipeline Flask App
+* Prepared workflow file and commited
+  ## .github/workflows/ci-cd.yml
+  <img width="605" height="797" alt="image" src="https://github.com/user-attachments/assets/4138afcc-1575-47e4-8729-fa57e33635a9" />  
+* Github Secret
+  <img width="1056" height="608" alt="image" src="https://github.com/user-attachments/assets/ea299b9f-fb92-49d7-bba9-f6e7bb5c209e" />  
+* Staging Github workflow
+  <img width="896" height="481" alt="image" src="https://github.com/user-attachments/assets/4b7bcd14-9155-4a11-a8cd-1642ee3f0441" />
+* Production Github workflow
+  <img width="943" height="473" alt="image" src="https://github.com/user-attachments/assets/c8eca7c0-de3f-44b8-b7b6-a384c42cecec" />
+
 # Student Registration System
 
 A simple **Flask** web application to manage student records with **MongoDB** as the backend database. Users can **add, view, update, and delete** student details.
@@ -128,6 +153,10 @@ Form pre-filled with student details.
 MIT License
 
 ---
+
+
+
+
 
 
 
