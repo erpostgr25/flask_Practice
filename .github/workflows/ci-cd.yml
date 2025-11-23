@@ -52,7 +52,7 @@ jobs:
             cd /home/ec2-user 
             sudo yum install -y git
             git clone https://github.com/erpostgr25/flask_Practice.git
-            cd ~/flash_Practice
+            cd ~/flask_Practice
             ./deploy.sh
 
   deploy-production:
@@ -74,6 +74,6 @@ jobs:
             cd /home/ec2-user  
             sudo yum install -y git
             git clone https://github.com/erpostgr25/flask_Practice.git
-            cd ~/flash_Practice
+            cd ~/flask_Practice
             ./deploy.sh            
 
