@@ -12,6 +12,16 @@
   <img width="466" height="182" alt="email" src="https://github.com/user-attachments/assets/b2274a7f-2fa9-4263-8243-4be8367dc589" />  
 * Application status
   <img width="1322" height="120" alt="app started" src="https://github.com/user-attachments/assets/456b4684-9329-46b1-88ec-77a1ecc34b16" />  
+# Assignment2: GitHub Actions CI/CD Pipeline Flask App
+* Prepared workflow file and commited
+  ## .github/workflows/ci-cd.yml
+  <img width="605" height="797" alt="image" src="https://github.com/user-attachments/assets/4138afcc-1575-47e4-8729-fa57e33635a9" />  
+* Github Secret
+  <img width="1056" height="608" alt="image" src="https://github.com/user-attachments/assets/ea299b9f-fb92-49d7-bba9-f6e7bb5c209e" />  
+* Staging Github workflow
+  <img width="896" height="481" alt="image" src="https://github.com/user-attachments/assets/4b7bcd14-9155-4a11-a8cd-1642ee3f0441" />
+* Production Github workflow
+  <img width="943" height="473" alt="image" src="https://github.com/user-attachments/assets/c8eca7c0-de3f-44b8-b7b6-a384c42cecec" />
 
 # Student Registration System
 
@@ -143,6 +153,7 @@ Form pre-filled with student details.
 MIT License
 
 ---
+
 
 
 
