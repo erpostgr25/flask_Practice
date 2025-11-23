@@ -3,7 +3,7 @@ Description=Flask App
 After=network.target
 
 [Service]
-User=jenkins
+User=ec2-user
 WorkingDirectory=/home/ec2-user/flask_Practice
 ExecStart=/usr/bin/python3 app.py
 Restart=always
