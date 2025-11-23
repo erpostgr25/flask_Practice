@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=jenkins
-WorkingDirectory=/var/lib/jenkins/workspace/flask-assignment-pipeline
+WorkingDirectory=/home/ec2-user/flask_Practice
 ExecStart=/usr/bin/python3 app.py
 Restart=always
 
