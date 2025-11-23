@@ -51,7 +51,7 @@ jobs:
           script: |
             cd /home/ec2-user 
             sudo yum install -y git
-            git pull origin staging
+            git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flash_Practice
             ./deploy.sh
 
@@ -73,7 +73,7 @@ jobs:
           script: |
             cd /home/ec2-user  
             sudo yum install -y git
-            git pull origin staging
+            git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flash_Practice
             ./deploy.sh            
 
