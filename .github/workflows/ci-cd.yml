@@ -54,6 +54,7 @@ jobs:
             git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flask_Practice
             git pull origin staging
+            pip install -r requirements.txt
             ./deploy.sh
 
   deploy-production:
@@ -77,5 +78,6 @@ jobs:
             git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flask_Practice
             git pull origin main
+            pip install -r requirements.txt
             ./deploy.sh            
 
