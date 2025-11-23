@@ -53,6 +53,7 @@ jobs:
             sudo yum install -y git
             git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flask_Practice
+            git pull origin main
             ./deploy.sh
 
   deploy-production:
@@ -75,5 +76,6 @@ jobs:
             sudo yum install -y git
             git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flask_Practice
+            git pull origin main
             ./deploy.sh            
 
