@@ -50,11 +50,11 @@ jobs:
           key: ${{ secrets.STAGING_SSH_KEY }}
           script: |
             cd /home/ec2-user 
-            sudo yum install -y git
+            sudo yum install -y git python3-pip.noarch
             git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flask_Practice
             git pull origin staging
-            pip install -r requirements.txt
+            sudo pip install -r requirements.txt
             ./deploy.sh
 
   deploy-production:
@@ -74,10 +74,10 @@ jobs:
           key: ${{ secrets.PROD_SSH_KEY }}
           script: |
             cd /home/ec2-user  
-            sudo yum install -y git
+            sudo yum install -y git python3-pip.noarch
             git clone https://github.com/erpostgr25/flask_Practice.git
             cd ~/flask_Practice
             git pull origin main
-            pip install -r requirements.txt
+            sudo pip install -r requirements.txt
             ./deploy.sh            
 
