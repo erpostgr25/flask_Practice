@@ -6,9 +6,6 @@ on:
       - main
       - staging
   workflow_dispatch:
-  push:
-    tags:
-      - 'v*'
 
 jobs:
   build-test:
